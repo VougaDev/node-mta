@@ -19,7 +19,7 @@ you if you start.
 
 * Use it as an [NodeJs addon][3], include the file path to the root directory 
 in the dependencies block of your package.json. You can change the C/C++ compiler 
-in binding.gyp file. You will find an example i test.js and you will need an RSA key pai
+in binding.gyp file. You will find an example i test.js and you will need an RSA key pair
 in /res/rsa\[.](public|private)$/
  
 Note: By default, this will be built with the debug flag.
