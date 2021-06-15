@@ -1,21 +1,21 @@
 # node-mta
 Mail Transfert Agent addon for NodeJs
 
-*** Supported features ***
+** Supported features **
 
 * Send html or txt email with attachments
 * [STARTTLS][1] command, in fact this will not allow you to use clear text traffic
 * Sign your emails with an RSA key and add the [DKIM-Signature][2] header
 * Send mail to multiple emails. It will send all emails in a batch for each domain.
 
-*** Not supported ***
+** Not supported **
 
 * HTML template engine email - You can start implementing this, I will help 
 you if you start. 
 
 * This will not receive emails, it's not an SMTP server
 
-*** How to use it ? ***
+** How to use it ? **
 
 * Use it as an [NodeJs addon][3], include the file path to the root directory 
 in the dependencies block of your package.json. You can change the C/C++ compiler 
@@ -31,7 +31,7 @@ the javascript part or NodeJs.
 
 All code related to NodeJs is in /main.\[hc]pp$/
 
-*** How to contribute ***
+** How to contribute **
 
 My main goal was not to publish this anywhere but only to use it in my own projects, because I did 
 not want to call external APIs and pay money every month for that task.
