@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+     "type": "lldb",
+     "request": "launch",
+     "name": "Gdb Binary",
+     "program": "/home/echo/boutch/apps/n/bin/node",
+     "args": [
+        "/home/echo/boutch/project/cpp-mail/main.js"
+     ]
+  }]
+}

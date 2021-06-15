@@ -1,3 +1,11 @@
+build/**
+node_modules/**
+
+*.key
+*.public
+*.private
+*.node
+
 # Prerequisites
 *.d
 

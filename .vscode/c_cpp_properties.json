@@ -1,0 +1,34 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}",
+            "${workspaceFolder}/src/cpp"
+        ],
+        "myCompilerPath": "/usr/bin/gcc-8"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${myDefaultIncludePath}",
+                "/home/echo/.node-gyp/10.15.3/include/node",
+                "/home/echo/boutch/project/cpp-mail/poubelle/OpenDKIM-master/libopendkim"
+            ],
+            "defines": [
+                "DEBUG=1"
+            ],
+            "compilerPath": "/usr/bin/gcc-8",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

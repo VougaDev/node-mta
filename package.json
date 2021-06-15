@@ -1,0 +1,25 @@
+{
+  "name": "node-mta",
+  "version": "1.0.0",
+  "description": "smtp-client for NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c .",
+    "start": "node index.js",
+    "send": "node test.js",
+    "install": "node-gyp --debug configure rebuild",
+    "prebuild": "prebuild --verbose --strip"
+  },
+  "binary": {
+    "module_name": "node_mta",
+    "module_path": "./lib/binding/"
+  },
+  "keywords": [
+    "smtp",
+    "ssl",
+    "nodejs",
+    "mixboutch"
+  ],
+  "author": "VougaDev",
+  "license": "MIT"
+}
