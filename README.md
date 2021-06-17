@@ -1,5 +1,9 @@
 # node-mta
-Mail Transfert Agent addon for NodeJs
+Mail Transfert Agent (email sender) addon for NodeJs
+
+With this NodeJs addon, you can send email messages anywhere on the internet 
+Without needing to host a fully featured SMTP server. 
+Tested with Gmail,Yahoo, Outlook principally. 
 
 **Supported features**
 
