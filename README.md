@@ -21,7 +21,7 @@ you if you start.
 
 * Use it as an [NodeJs addon][3], include the file path to the root directory 
 in the dependencies block of your package.json. You can change the C/C++ compiler 
-in binding.gyp file. You will find an example i test.js and you will need an RSA key pair
+in binding.gyp file. You will find an example in test.js and you will need an RSA key pair
 in /res/rsa\[.](public|private)$/
  
 Note: By default, this will be built with the debug flag.
@@ -32,7 +32,7 @@ You will also have to make the DNS MX records request by yourself because I did 
 the javascript part or NodeJs. You should also implement threading. Using -pthread is a bad idea 
 with NodeJs addons because it may break its Event-Driven nature. 
 
-All code related to NodeJs is can be found in ./res/cpp/main.(hpp|cpp)$
+All code related to NodeJs can be found in ./res/cpp/main.(hpp|cpp)$
 
 **How to contribute**
 
