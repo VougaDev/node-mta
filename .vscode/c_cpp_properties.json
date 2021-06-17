@@ -13,7 +13,6 @@
             "includePath": [
                 "${myDefaultIncludePath}",
                 "/home/echo/.node-gyp/10.15.3/include/node",
-                "/home/echo/boutch/project/cpp-mail/poubelle/OpenDKIM-master/libopendkim"
             ],
             "defines": [
                 "DEBUG=1"
